@@ -31,8 +31,8 @@ def run_flask():
     app.run(host='0.0.0.0', port=5000)
 
 # ========== إعدادات البوت ==========
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ضع_توكن_البوت_هنا")
-DEVELOPER_CHAT_ID = os.environ.get("DEVELOPER_CHAT_ID", "ضع_معرف_المطور_هنا")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8283832279:AAFUR_rAxkIiu-ZsF9YXGAuc394uHhaWZ5o")
+DEVELOPER_CHAT_ID = os.environ.get("DEVELOPER_CHAT_ID","7305720183")
 
 # ========== إعداد التسجيل ==========
 logging.basicConfig(
