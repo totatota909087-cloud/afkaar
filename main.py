@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # TOKEN - تأكد من تغييره!
-TOKEN = os.getenv("TOKEN", "YOUR_BOT_TOKEN_HERE")
+TOKEN = os.getenv("TOKEN", "8481752278:AAHs9O3Ilf0LRTJPIAhpdC92gC3_ufME78g")
 
 # Flask
 app = Flask(__name__)
